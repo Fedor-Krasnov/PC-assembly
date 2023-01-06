@@ -19,6 +19,8 @@ li {
   padding: 40px 20px;
   max-width: 1760px;
   margin: 0 auto;
+  display: grid;
+  align-content: space-between;
 }
 
 .header_container {
@@ -54,12 +56,19 @@ li {
   display: flex;
   gap: 56px;
 }
-.header_text {
-  font-size: 64px;
-  padding: 198px 188px 0;
+
+.main_container_header {
+  max-width: 1296px;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.timer {
+
+.header_text {
+  font-size: 64px;
+}
+
+.timer_list li {
   width:100px;
   height: 110px;
   background-color: #121212;
@@ -75,18 +84,84 @@ li {
 .timer_list {
   display: flex;
   gap: 50px;
-  padding: 80px 188px;
+  padding: 80px 0;
 }
 
-.timer_list span {
+.timer_list .unit {
   opacity: 0.4;
   font-size: 16px;
 }
 
 .well {
   background-color: #121212;
-
+  margin: -40px -20px;
 }
 
+.well_container {
+  max-width: 1296px;
+  margin: 0 auto;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 80px;
+}
 
+.well button {
+  border: none;
+  border-radius: 50px;
+  color: white;
+  background:  linear-gradient(95deg, #DF5950 11%, #451046 94%);
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  cursor: pointer;
+  padding: 10px 30px;
+}
 
+.button_container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.pupils {
+  flex: 1;
+  gap: 10px;
+  display: grid;
+}
+
+.scale,
+.cost_pupils,
+.pupils > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.cost_pupils {
+  justify-content: flex-start;
+}
+
+.cost {
+  flex: 3;
+  gap: 6px;
+  display: grid;
+}
+
+.scale,
+.cost_pupils .text,
+.pupils .text {
+  opacity: 0.4;
+}
+
+.line {
+  background: white;
+  height: 6px;
+}
+
+.line_filling {
+  height: inherit;
+  width: 40%;
+  background: linear-gradient(95deg, #DF5950 11%, #451046 94%);
+}

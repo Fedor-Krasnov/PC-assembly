@@ -6,7 +6,6 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="styles/main.css">
     <title>PC_assembly</title>
@@ -39,15 +38,42 @@
         </div>
         <div class="main_timer_header">
           <ul class="timer_list">
-            <li><div class="timer">14<br><span>Дней</span></div></li>
-            <li><div class="timer">88<br><span>Часов</span></div></li>
-            <li><div class="timer">7<br><span>Минут</span></div></li>
-            <li><div class="timer">8<br><span>Секунд</span></div></li>
+            <li><div class="timer">14</div><div class="unit">Дней</div></li>
+            <li><div class="timer">88</div><div class="unit">Часов</div></li>
+            <li><div class="timer">7</div><div class="unit">Минут</div></li>
+            <li><div class="timer">8</div><div class="unit">Секунд</div></li>
           </ul>
         </div>
       </div>
       <div class="well">
-        <button class="book_a_course">Заказать курс</button>
+        <div class="well_container">
+          <div class="button_container">
+            <button>Заказать курс</button>
+          </div>
+          <div class="pupils">
+            <div>
+              <div class="text">Всего учеников:</div>
+              <div>1488</div>
+            </div>
+            <div>
+              <div class="text">Успешно закончили курс:</div>
+              <div>78</div>
+            </div>
+          </div>
+          <div class="cost">
+            <div class="cost_pupils">
+              <div class="text">Заработано учениками:</div>
+              <div>400 000₽</div>
+            </div>
+            <div class="line">
+              <div class="line_filling"></div>
+            </div>
+            <div class="scale">
+              <div>0</div>
+              <div>1 000 000₽</div>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
   </body>
