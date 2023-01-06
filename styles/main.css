@@ -6,6 +6,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background: black;
+  color: white;
 }
 
 li {
@@ -46,21 +47,46 @@ li {
   padding: 10px 30px;
   font-size: 16px;
   font-family: Roboto, sans-serif;
+  cursor: pointer;
 }
 
 .nav_container ul {
   display: flex;
   gap: 56px;
 }
-
-.bottom_link {
-  text-decoration: none;
-  color: white;
+.header_text {
+  font-size: 64px;
+  padding: 198px 188px 0;
 }
 
+.timer {
+  width:100px;
+  height: 110px;
+  background-color: #121212;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 36px;
+}
 
+.timer_list {
+  display: flex;
+  gap: 50px;
+  padding: 80px 188px;
+}
 
+.timer_list span {
+  opacity: 0.4;
+  font-size: 16px;
+}
 
+.well {
+  background-color: #121212;
+
+}
 
 
 
