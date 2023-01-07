@@ -1,0 +1,30 @@
+.business {
+  margin: 200px 0;
+}
+
+.business__container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1296px;
+  gap: 140px;
+}
+
+.business__border {
+  background: linear-gradient(95deg, #C89AFC 10%, #7C6AFA 90%);
+}
+
+.business__img {
+  background: black;
+  margin: 30px;
+}
+
+.business__img img {
+  transform: translateY(80px);
+}
+
+.business__text {
+  display: flex;
+  gap: 45px;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -8,6 +8,8 @@ li {
   list-style: none;
 }
 
-main {
-  background: #333;
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 67px;
 }
