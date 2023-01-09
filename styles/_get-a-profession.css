@@ -1,4 +1,8 @@
-.get__a__profession__container {
+.get-a-profession {
+  text-align: center;
+}
+
+.get-a-profession__container {
   display: grid;
   justify-content: center;
   padding-top: 200px;
@@ -13,7 +17,7 @@
   max-width: 1296px;
   display: flex;
   padding-top: 120px;
-  gap: 365px;
+  gap: 50px;
 }
 
 .bottom__header_flash span {
@@ -29,4 +33,16 @@
 .widget__downtext {
   opacity: 0.4;
   padding-top: 30px;
+}
+
+.widget__cable__container__img img {
+  padding-bottom: 60px;
+}
+
+.widget-flash__container-img img {
+  padding-bottom: 60px;
+}
+
+.widget-pc__container-img img {
+  padding-bottom: 60px;
 }

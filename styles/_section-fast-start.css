@@ -35,6 +35,10 @@
   flex: 1;
 }
 
+.get-a-profession {
+  line-height: 160%;
+}
+
 .line__100__downtext {
   opacity: 0.4;
   padding-top: 35px;
