@@ -18,17 +18,21 @@
 
 .border__line__100 {
   background: linear-gradient(94deg, #C89AFC 10%, #7C6AFA 90%);
-  width: 324px;
   height: 80px;
 }
 
 .line__100__text {
   padding: 80px 0 20px 0;
 }
+
 .analytical__line__block {
   display: flex;
   margin: 0 auto;
   max-width: 1296px;
+}
+
+.analytical__line__block > div {
+  flex: 1;
 }
 
 .line__100__downtext {
@@ -43,7 +47,6 @@
 .border_line_75 {
   background: linear-gradient(94deg, #C89AFC 10%, #7C6AFA 90%);
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  width: 324px;
   height: 60px;
 }
 
@@ -58,7 +61,6 @@
 
 .border__line__50 {
   background: linear-gradient(94deg, #C89AFC 10%, #7C6AFA 90%);
-  width: 324px;
   height: 30px;
 }
 
@@ -74,7 +76,6 @@
 .border__line__total {
   background: linear-gradient(94deg, #C89AFC 10%, #7C6AFA 90%);
   transform: matrix(-1, 0, 0, 1, 0, 0);
-  width: 324px;
   height: 10px;
 }
 

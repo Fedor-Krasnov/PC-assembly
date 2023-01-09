@@ -1,0 +1,32 @@
+.get__a__profession__container {
+  display: grid;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.bottom__header_pc span {
+  display: grid;
+  justify-content: center;
+}
+
+.widget_container {
+  max-width: 1296px;
+  display: flex;
+  padding-top: 120px;
+  gap: 365px;
+}
+
+.bottom__header_flash span {
+  display: grid;
+  justify-content: center;
+}
+
+.widget__downtext {
+  opacity: 0.4;
+  padding-top: 30px;
+}
+
+.widget__downtext {
+  opacity: 0.4;
+  padding-top: 30px;
+}
