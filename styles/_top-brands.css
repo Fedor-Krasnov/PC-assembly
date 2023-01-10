@@ -1,0 +1,40 @@
+.border-right {
+  border-right: 1px solid rgba(255,255,255,0.3);
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.top-brands__container {
+  max-width: 1296px;
+  margin: 0 auto;
+  padding-top: 95px;
+}
+
+.top-brands__container ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-brands__container li {
+  width: 25%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.top-brands__container__title {
+  display: flex;
+}
+
+.top-brands {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.top-brands__text__container {
+  display: grid;
+  align-items: center;
+}

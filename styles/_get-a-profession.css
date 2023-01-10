@@ -5,7 +5,6 @@
 .get-a-profession__container {
   display: grid;
   justify-content: center;
-  padding-top: 200px;
 }
 
 .bottom__header_pc span {
@@ -37,12 +36,15 @@
 
 .widget__cable__container__img img {
   padding-bottom: 60px;
+  margin: auto;
 }
 
 .widget-flash__container-img img {
   padding-bottom: 60px;
+  margin: auto;
 }
 
 .widget-pc__container-img img {
   padding-bottom: 60px;
+  margin: auto;
 }
