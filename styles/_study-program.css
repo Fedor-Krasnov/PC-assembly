@@ -1,0 +1,26 @@
+.study-program {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.logo__container {
+  display: grid;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.study-program__text {
+  display: grid;
+  text-align: center;
+}
+
+.study-program__downtext {
+  line-height: 160%;
+  opacity: 0.5;
+}
+
+
+
+
+
+
