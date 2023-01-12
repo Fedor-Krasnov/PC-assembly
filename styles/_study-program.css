@@ -1,12 +1,11 @@
-.study-program {
-  max-width: 1296px;
+.study-program__container {
+  max-width: 750px;
   margin: 0 auto;
 }
 
 .logo__container {
   display: grid;
   justify-content: center;
-  padding-top: 200px;
 }
 
 .study-program__text {
@@ -15,12 +14,57 @@
 }
 
 .study-program__downtext {
+  padding: 30px;
   line-height: 160%;
   opacity: 0.5;
 }
 
+.vertical-analytical-line {
+  margin-top: 80px;
+}
 
+.vertical-analytical-line span {
+  opacity: 0.5;
+  font-size: 14px;
+}
 
+.vertical-analytical-line p {
+  margin-top: 15px;
+  font-size: 18px;
+}
 
+.vertical-analytical-line__item {
+  display: flex;
+}
 
+.vertical-analytical-line__item > div {
+  flex: 1;
+  padding: 10px 60px;
+}
 
+.vertical-analytical-line .left {
+  text-align: right;
+  border-right: 6px solid;
+  border-image: linear-gradient(94deg, #C89AFC 10%, #7C6AFA 90%);
+  border-image-slice: 1;
+}
+
+.vertical-analytical-line__content {
+  position: relative;
+}
+
+.vertical-analytical-line__content::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  background: white;
+  opacity: 0.3;
+  left: 0;
+  top: 50%;
+}
+
+.vertical-analytical-line__content.left::after {
+  right: 0;
+  left: auto;
+}

@@ -2,10 +2,16 @@ body {
   font-family: 'Roboto', sans-serif;
   background: black;
   color: white;
+  line-height: 160%;
 }
 
 ul {
   list-style: none;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 140%;
 }
 
 h2 {
