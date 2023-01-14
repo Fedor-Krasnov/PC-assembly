@@ -20,6 +20,14 @@ h2 {
   line-height: 67px;
 }
 
+h3 {
+  font-size: 24px;
+}
+
 section {
   margin-bottom: 200px;
+}
+
+button {
+  cursor: pointer;
 }

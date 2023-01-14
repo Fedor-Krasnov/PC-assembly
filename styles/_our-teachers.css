@@ -1,0 +1,134 @@
+.our-teachers__container {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+.top__text {
+  display: flex;
+}
+
+.logo-our-teachers {
+  padding-right: 40px;
+}
+
+.teachers {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 115px;
+}
+
+.teachers img {
+  margin: auto;
+}
+
+.name-pavel-martsinkevich {
+  padding-top: 40px;
+}
+
+.downtext-text-pavel-martsinkevich {
+  padding-top: 15px;
+  opacity: 0.7;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.biography {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 50px;
+  width: 135px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+
+.biography__border {
+  padding-top: 20px;
+}
+
+.downtext-text {
+  text-align: center;
+}
+
+.downtext-photo-pavel-martsinkevich {
+  padding-top: 15px;
+}
+
+.name-willem-helm {
+  padding-top: 40px;
+}
+
+.downtext-text-willem-helm {
+  padding-top: 15px;
+  opacity: 0.7;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.biography {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 50px;
+  width: 135px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+
+.biography__border {
+  padding-top: 20px;
+}
+
+.downtext-text {
+  text-align: center;
+}
+
+.downtext-photo-willem-helm {
+  padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+.name-artyom-technofox {
+  padding-top: 40px;
+}
+
+.downtext-text-artyom-technofox {
+  padding-top: 15px;
+  opacity: 0.7;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.biography {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 50px;
+  width: 135px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+
+.biography__border {
+  padding-top: 20px;
+}
+
+.downtext-text {
+  text-align: center;
+}
+
+.downtext-photo-artyom-technofox {
+  padding-top: 15px;
+}
