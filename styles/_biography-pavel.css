@@ -1,0 +1,29 @@
+.biography-pavel__container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.main-title__container {
+  display: flex;
+
+}
+
+.biography-pavel {
+  padding-top: 100px;
+}
+
+.biography-title {
+  padding-left: 30px;
+}
+
+.biography-main-pavel {
+  padding-top: 70px;
+  display: flex;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+
+
+
