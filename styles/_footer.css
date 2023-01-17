@@ -29,6 +29,10 @@
   height: 44px;
 }
 
+.input__container button:hover {
+  background: linear-gradient(95deg, #C89AFC 10%, #7C6AFA 90%);
+}
+
 .input__container label {
   margin-right: -16px;
 }
@@ -61,6 +65,9 @@
   gap: 20px;
 }
 
+.contact__biography-artyom li,
+.contact__biography-wilhem li,
+.contact__biography-pavel li,
 .contact__container li {
   align-items: center;
   background: linear-gradient(95deg, #C89AFC 10%, #7C6AFA 90%);
@@ -69,6 +76,14 @@
   justify-content: center;
   height: 50px;
   width: 50px;
+  cursor: pointer;
+}
+
+.contact__biography-artyom li:hover,
+.contact__biography-wilhem li:hover,
+.contact__biography-pavel li:hover,
+.contact__container li:hover {
+  background: linear-gradient(95deg, #DF5950 11%, #451046 94%);
 }
 
 .contact__container  {

@@ -41,16 +41,6 @@
   justify-content: center;
 }
 
-.contact__biography-pavel li {
-  align-items: center;
-  background: linear-gradient(95deg, #C89AFC 10%, #7C6AFA 90%);
-  border-radius: 100%;
-  display: flex;
-  justify-content: center;
-  height: 50px;
-  width: 50px;
-}
-
 .contact__biography-pavel  {
   display: grid;
   max-width: 300px;
@@ -63,6 +53,3 @@
   padding-top: 30px;
   gap: 20px;
 }
-
-
-

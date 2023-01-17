@@ -1,7 +1,7 @@
 .header {
   background: url("../assets/img/main-screen__bgc.png") no-repeat top center;
   height: 960px;
-  padding: 40px 20px;
+  padding: 100px 20px 40px;
   max-width: 1760px;
   margin: 0 auto;
   display: grid;
@@ -12,6 +12,17 @@
   display :flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: calc(100% - 20px * 2);
+  top: 40px;
+  left: 20px;
+  right: 20px;
+  z-index: 1;
+}
+
+.no-fixed {
+  position: static;
+  padding: 40px 20px;
 }
 
 .bottom {
@@ -35,6 +46,10 @@
   font-size: 16px;
   font-family: Roboto, sans-serif;
   cursor: pointer;
+}
+
+.nav_container button:hover {
+  background:  linear-gradient(95deg, #DF5950 11%, #451046 94%);
 }
 
 .nav_container ul {
@@ -64,10 +79,11 @@
 .timer_list {
   display: flex;
   gap: 50px;
-  padding: 80px 0;
+  padding-top: 80px;
 }
 
 .timer_list .unit {
+  margin-top: 15px;
   opacity: 0.4;
   font-size: 16px;
 }
@@ -97,6 +113,10 @@
   font-family: Roboto, sans-serif;
   cursor: pointer;
   padding: 10px 30px;
+}
+
+.well button:hover {
+  background: linear-gradient(95deg, #C89AFC 9%, #7C6AFA 90%);
 }
 
 .button_container {

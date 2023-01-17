@@ -41,16 +41,6 @@
   justify-content: center;
 }
 
-.contact__biography-wilhem li {
-  align-items: center;
-  background: linear-gradient(95deg, #C89AFC 10%, #7C6AFA 90%);
-  border-radius: 100%;
-  display: flex;
-  justify-content: center;
-  height: 50px;
-  width: 50px;
-}
-
 .contact__biography-wilhem  {
   display: grid;
   max-width: 300px;
