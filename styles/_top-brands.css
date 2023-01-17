@@ -27,9 +27,6 @@
 
 .top-brands__container__title {
   display: flex;
-}
-
-.top-brands__container__title {
   max-width: 1296px;
   margin: 0 auto;
 }

@@ -1,4 +1,4 @@
-.biography-pavel__container {
+.biography-wilhem__container {
   max-width: 1296px;
   margin: 0 auto;
 }
@@ -8,7 +8,7 @@
 
 }
 
-.biography-pavel {
+.biography-wilhem {
   padding-top: 100px;
 }
 
@@ -16,7 +16,7 @@
   padding-left: 30px;
 }
 
-.biography-main-pavel {
+.biography-main-wilhem {
   padding-top: 70px;
   display: flex;
   gap: 40px;
@@ -41,7 +41,7 @@
   justify-content: center;
 }
 
-.contact__biography-pavel li {
+.contact__biography-wilhem li {
   align-items: center;
   background: linear-gradient(95deg, #C89AFC 10%, #7C6AFA 90%);
   border-radius: 100%;
@@ -51,18 +51,15 @@
   width: 50px;
 }
 
-.contact__biography-pavel  {
+.contact__biography-wilhem  {
   display: grid;
   max-width: 300px;
   margin: 0 auto;
 }
 
-.contact__biography-pavel ul {
+.contact__biography-wilhem ul {
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
   gap: 20px;
 }
-
-
-
