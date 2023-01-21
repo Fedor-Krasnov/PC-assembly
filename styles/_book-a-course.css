@@ -25,14 +25,40 @@
   padding-left: 10px;
 }
 
+.book-a-course-buy input {
+  height: 30px;
+  background: rgba(255, 255, 255, 0.25);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  outline: none;
+  padding: 0 20px;
+  width: calc(100% - 20px * 2);
+}
+
+.book-a-course-buy label {
+  display: block;
+  font-size: small;
+}
+
+.book-a-course-buy #card-number {
+  width: 100%;
+}
+
 .book-a-course-buy__border {
   width: 320px;
-  height: 100px;
   border: 1px solid;
   border-radius: 8px;
   justify-content: center;
   align-items: center;
   display: grid;
+  margin: auto;
+  padding: 10px;
+}
+
+.book-a-course-buy__border > div:nth-child(2) {
+  display: flex;
+  column-gap: 20px;
 }
 
 .book-a-course__button__container button {
@@ -45,6 +71,7 @@
   cursor: pointer;
   padding: 10px 30px;
   display: grid;
+  margin: auto;
 }
 
 .book-a-course__button__container {
@@ -56,4 +83,8 @@
   justify-content: center;
   padding-top: 50px;
   gap: 20px;
+}
+
+.book-a-course__button:hover {
+  background: linear-gradient(95deg, #C89AFC 10%, #7C6AFA 90%);
 }
