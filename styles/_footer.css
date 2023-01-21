@@ -65,6 +65,7 @@
   gap: 20px;
 }
 
+.contact__book-a-course li,
 .contact__biography-artyom li,
 .contact__biography-wilhem li,
 .contact__biography-pavel li,
@@ -79,6 +80,7 @@
   cursor: pointer;
 }
 
+.contact__book-a-course li:hover,
 .contact__biography-artyom li:hover,
 .contact__biography-wilhem li:hover,
 .contact__biography-pavel li:hover,
