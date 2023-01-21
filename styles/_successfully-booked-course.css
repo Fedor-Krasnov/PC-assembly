@@ -1,0 +1,31 @@
+.successfully-booked-course-title__container {
+  display: flex;
+}
+
+.successfully-booked-course__border {
+  width: 700px;
+  border: 1px solid;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  margin: auto;
+  padding: 10px;
+}
+
+.congratulation_title {
+  align-items: center;
+  display: grid;
+  padding-left: 10px;
+}
+
+.successfully-booked-course__title {
+  padding: 20px;
+}
+
+.successfully-booked-course-main-information {
+  padding-top: 5px;
+}
+
+
+

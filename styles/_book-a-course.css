@@ -59,6 +59,11 @@
 .book-a-course-buy__border > div:nth-child(2) {
   display: flex;
   column-gap: 20px;
+  margin-top: 10px;
+}
+
+.book-a-course-buy__border > div:nth-child(2) input {
+  width: 100%;
 }
 
 .book-a-course__button__container button {
@@ -76,6 +81,12 @@
 
 .book-a-course__button__container {
   padding: 20px 0;
+  text-align: center;
+}
+
+.book-a-course__button__container a {
+  text-decoration: none;
+  display: inline-block;
 }
 
 .contact__book-a-course ul {
