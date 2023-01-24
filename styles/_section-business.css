@@ -5,6 +5,10 @@
   gap: 140px;
 }
 
+.business__container > div {
+  flex: 1;
+}
+
 .business__border {
   background: linear-gradient(95deg, #C89AFC 10%, #7C6AFA 90%);
 }

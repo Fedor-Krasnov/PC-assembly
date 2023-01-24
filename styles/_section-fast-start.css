@@ -7,8 +7,7 @@
 
 .section__fs__text {
   opacity: 0.4;
-  margin: 0 auto;
-  max-width: 1296px;
+  max-width: 400px;
   padding-top: 50px;
 }
 
@@ -25,6 +24,10 @@
   display: flex;
   margin: 0 auto;
   max-width: 1296px;
+}
+
+.analytical__line__block p {
+  width: 95%;
 }
 
 .analytical__line__block > div {
@@ -84,4 +87,7 @@
   padding-top: 70px;
 }
 
-
+.text_container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
