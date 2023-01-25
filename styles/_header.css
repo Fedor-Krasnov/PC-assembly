@@ -143,6 +143,7 @@
 .well {
   background-color: #121212;
   margin: -40px -20px;
+  padding: 0;
 }
 
 .well_container {
@@ -214,6 +215,11 @@
 
 .line_filling {
   height: inherit;
-  width: 40%;
+  width: 0;
   background: linear-gradient(95deg, #DF5950 11%, #451046 94%);
+}
+
+.well.initialized .line_filling {
+  width: 68%;
+  transition: 1s linear;
 }
