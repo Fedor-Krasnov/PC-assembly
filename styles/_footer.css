@@ -10,6 +10,8 @@
 .downtext-footer {
   opacity: 0.5;
   padding-top: 20px;
+  max-width: 390px;
+  margin: auto;
 }
 
 .button-footeron- {

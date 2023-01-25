@@ -11,12 +11,15 @@
 .study-program__text {
   display: grid;
   text-align: center;
+  justify-content: center;
 }
 
 .study-program__downtext {
   padding: 30px;
   line-height: 160%;
   opacity: 0.5;
+  margin: auto;
+  max-width: 390px;
 }
 
 .vertical-analytical-line {

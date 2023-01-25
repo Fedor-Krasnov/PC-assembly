@@ -7,6 +7,10 @@
   justify-content: center;
 }
 
+.get-a-profession__container p {
+
+}
+
 .bottom__header_pc span {
   display: grid;
   justify-content: center;
@@ -19,6 +23,10 @@
   gap: 50px;
 }
 
+.widget_container > div {
+  flex: 1;
+}
+
 .bottom__header_flash span {
   display: grid;
   justify-content: center;
@@ -27,6 +35,8 @@
 .widget__downtext {
   opacity: 0.4;
   padding-top: 30px;
+  max-width: 330px;
+  margin: auto;
 }
 
 .widget__downtext {
@@ -39,12 +49,24 @@
   margin: auto;
 }
 
+/*.widget__cable__container p {*/
+/*  width: 300px;*/
+/*}*/
+
 .widget-flash__container-img img {
   padding-bottom: 60px;
   margin: auto;
 }
 
+/*.widget-flash__container p {*/
+/*  width: 400px;*/
+/*}*/
+
 .widget-pc__container-img img {
   padding-bottom: 60px;
   margin: auto;
+}
+
+.widget__downtext {
+  width: 330px;
 }
