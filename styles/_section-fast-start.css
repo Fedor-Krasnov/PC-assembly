@@ -92,4 +92,45 @@
   margin: 0 auto;
 }
 
+.border__line__100 {
+  width: 0;
+  background: linear-gradient(94deg, #C89AFC 10%, #7C6AFA 90%);
+}
 
+.fast_start.initialized .border__line__100 {
+  width: 100%;
+  transition: 1s linear;
+}
+
+.border_line_75{
+  width: 0;
+  background: linear-gradient(94deg, #C89AFC 10%, #7C6AFA 90%);
+}
+
+.fast_start.initialized .border_line_75 {
+  width: 100%;
+  transition: 1s linear;
+  transition-delay: 1s;
+}
+
+.border__line__50 {
+  width: 0;
+  background: linear-gradient(94deg, #C89AFC 10%, #7C6AFA 90%);
+}
+
+.fast_start.initialized .border__line__50 {
+  width: 100%;
+  transition: 1s linear;
+  transition-delay: 2s;
+}
+
+.border__line__total {
+  width: 0;
+  background: linear-gradient(94deg, #C89AFC 10%, #7C6AFA 90%);
+}
+
+.fast_start.initialized .border__line__total {
+  width: 100%;
+  transition: 1s linear;
+  transition-delay: 3s;
+}
