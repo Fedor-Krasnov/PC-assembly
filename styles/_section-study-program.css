@@ -71,3 +71,8 @@
   right: 0;
   left: auto;
 }
+
+.study-program.initialized .logo_sp {
+  transform: rotate(360deg);
+  transition: 1s ease;
+}

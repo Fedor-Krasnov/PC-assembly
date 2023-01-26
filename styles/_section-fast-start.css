@@ -134,3 +134,8 @@
   transition: 1s linear;
   transition-delay: 3s;
 }
+
+.fast_start.initialized .logo__fs {
+  transform: rotate(360deg);
+  transition: 1s ease;
+}
