@@ -1,12 +1,12 @@
 @import "_reset.css";
 @import "_html.css";
-@import "_header.css";
+@import "_section-header.css";
 @import "_section-business.css";
 @import "_section-fast-start.css";
-@import "_get-a-profession.css";
-@import "_top-brands.css";
-@import "_study-program.css";
-@import "_our-teachers.css";
+@import "_section-get-a-profession.css";
+@import "_section-top-brands.css";
+@import "_section-study-program.css";
+@import "_section-our-teachers.css";
 @import "_footer.css";
 @import "_biography-pavel.css";
 @import "_biography-wellem.css";
