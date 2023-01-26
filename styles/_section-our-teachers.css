@@ -124,3 +124,8 @@
 .downtext-photo-artyom-technofox {
   padding-top: 15px;
 }
+
+.our-teachers.initialized .logo__ot {
+  transform: rotate(360deg);
+  transition: 1s ease;
+}
