@@ -16,6 +16,7 @@ ul {
 h1 {
   font-size: 64px;
   line-height: 140%;
+  max-width: 890px;
 }
 
 h2 {
