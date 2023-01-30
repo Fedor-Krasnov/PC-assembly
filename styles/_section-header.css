@@ -3,7 +3,7 @@
   height: 960px;
   padding: 100px 20px 40px;
   max-width: 1760px;
-  margin: 0 auto;
+  margin: 0 -20px;
   display: grid;
   align-content: space-between;
 }
@@ -143,7 +143,7 @@
 .well {
   background-color: #121212;
   margin: -40px -20px;
-  padding: 0;
+  padding: 0 20px;
 }
 
 .well_container {
