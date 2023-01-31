@@ -1,11 +1,15 @@
 .header {
   background: url("../assets/img/main-screen__bgc.png") no-repeat top center;
-  height: 960px;
+  min-height: 960px;
   padding: 100px 20px 40px;
   max-width: 1760px;
   margin: 0 -20px;
   display: grid;
   align-content: space-between;
+}
+
+.button {
+  white-space: nowrap;
 }
 
 .header h1 {
@@ -77,6 +81,10 @@
   padding: 40px 20px;
 }
 
+.well .text {
+  white-space: nowrap;
+}
+
 .bottom {
   text-decoration: none;
   color: white;
@@ -143,18 +151,20 @@
 .well {
   background-color: #121212;
   margin: -40px -20px;
-  padding: 0 20px;
+  padding: 20px;
 }
 
 .well_container {
   max-width: 1296px;
   margin: 0 auto;
-  height: 130px;
+  min-height: 130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  gap: 80px;
+  column-gap: 80px;
+  row-gap: 30px;
+  flex-wrap: wrap;
 }
 
 .well button {
@@ -247,6 +257,22 @@
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .button_container,
+  .pupils,
+  .cost {
+    flex: none;
+  }
+
+  .cost {
+    width: 100%;
+  }
+
+  .well_container {
+    justify-content: left;
+  }
+}
+
 @media only screen and (max-width: 620px) {
   h1 {
     font-size: 45px;
@@ -289,5 +315,3 @@
     height: 73px;
   }
 }
-
-
