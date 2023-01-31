@@ -281,7 +281,7 @@
   }
 
   .timer_list {
-    gap: 10px;
+    gap: 8px;
     justify-content: center;
   }
 
@@ -299,7 +299,7 @@
 
 @media only screen and (max-width: 450px) {
   h1 {
-    font-size: 33px;
+    font-size: 30px;
     line-height: 100%;
   }
 }
