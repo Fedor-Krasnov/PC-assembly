@@ -11,15 +11,16 @@
 
 .business__border {
   background: linear-gradient(95deg, #C89AFC 10%, #7C6AFA 90%);
+  padding: 30px;
 }
 
 .business__img {
   background: black;
-  margin: 30px;
 }
 
 .business__img img {
   transform: translateY(80px);
+  margin: 0 auto;
 }
 
 .business__text {
@@ -27,4 +28,48 @@
   gap: 45px;
   flex-direction: column;
   justify-content: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .business__container {
+    gap: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .business__container {
+    flex-direction: column;
+    gap: 120px
+  }
+
+  .business__border {
+    max-width: 400px;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .business__text {
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .business__border {
+    padding: 20px;
+  }
+
+  .business__text p {
+    font-size: 11px;
+  }
 }
