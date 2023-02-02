@@ -3,6 +3,7 @@
   margin: 0 auto;
   max-width: 1296px;
   gap: 140px;
+  align-items: center;
 }
 
 .business__container > div {
