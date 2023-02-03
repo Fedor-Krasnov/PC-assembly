@@ -132,6 +132,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .analytical_line {
+    margin-top: 40px;
+  }
+
   .analytical__line__block {
     flex-direction: column;
   }
@@ -209,5 +213,39 @@
     width: 10px !important;
     transition-delay: 3s !important;
     background: linear-gradient(-150deg, #C89AFC 10%, #7C6AFA 90%);
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .analytical_line h2 {
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  .analytical__line__block > div > div:nth-child(1) {
+    flex: 0.3;
+  }
+
+  .analytical__line__block > div {
+    gap: 14px;
+  }
+
+  .line__downtext {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .semicircle {
+    width: 50px;
+  }
+
+  .fast_start_text {
+    gap: 20px;
+  }
+
+  @media only screen and (max-width: 425px) {
+    .semicircle {
+      width: 30px;
+    }
   }
 }
