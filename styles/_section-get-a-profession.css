@@ -21,6 +21,7 @@
   display: flex;
   padding-top: 120px;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 .widget_container > div {
@@ -69,4 +70,10 @@
 
 .widget__downtext {
   width: 330px;
+}
+
+@media only screen and (max-width: 382px) {
+  .widget__downtext {
+    width: 320px;
+  }
 }
