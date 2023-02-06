@@ -131,6 +131,11 @@
   transition: 1s ease;
 }
 
+.fast_start_text {
+  display: flex;
+  align-items: center;
+}
+
 @media only screen and (max-width: 768px) {
   .analytical_line {
     margin-top: 40px;
@@ -235,17 +240,7 @@
     line-height: 16px;
   }
 
-  .semicircle {
-    width: 50px;
-  }
-
   .fast_start_text {
     gap: 20px;
-  }
-
-  @media only screen and (max-width: 425px) {
-    .semicircle {
-      width: 30px;
-    }
   }
 }

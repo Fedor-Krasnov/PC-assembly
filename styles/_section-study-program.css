@@ -76,3 +76,25 @@
   transform: rotate(360deg);
   transition: 1s ease;
 }
+
+.logo__study-program {
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 620px) {
+  .vertical-analytical-line .left {
+    padding: 10px 20px 10px 0;
+  }
+
+  .vertical-analytical-line__item > div {
+    padding: 10px 0 10px 20px;
+  }
+
+  .vertical-analytical-line p {
+    font-size: 14px;
+  }
+
+  .vertical-analytical-line__content::after {
+    width: 15px;
+  }
+}

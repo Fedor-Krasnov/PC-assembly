@@ -43,6 +43,8 @@
   display: flex;
   max-width: 1296px;
   margin: 0 auto;
+  gap: 20px;
+  align-items: center;
 }
 
 .top-brands__text__container {
