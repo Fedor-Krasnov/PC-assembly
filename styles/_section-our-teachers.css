@@ -17,6 +17,8 @@
   max-width: 1100px;
   margin: 0 auto;
   padding-top: 115px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .teachers img {
@@ -128,4 +130,11 @@
 .our-teachers.initialized .logo__ot {
   transform: rotate(360deg);
   transition: 1s ease;
+}
+
+@media only screen and (max-width: 780px) {
+  .teachers {
+    display: flex;
+    justify-content: center;
+  }
 }
