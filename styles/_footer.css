@@ -37,10 +37,12 @@
 
 .input__container label {
   margin-right: -16px;
+  width: 100%;
+  max-width: 350px;
 }
 
 .input__container input {
-  width: 350px;
+  width: 100%;
   height: 44px;
   background: rgba(255, 255, 255, 0.25);
   border: none;
@@ -94,4 +96,10 @@
   display: grid;
   max-width: 300px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 375px) {
+  .input__container button {
+    padding: 10px 15px;
+  }
 }
