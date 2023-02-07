@@ -11,9 +11,9 @@
   padding-top: 100px;
 }
 
-.biography-title {
-  padding-left: 30px;
-}
+/*.biography-title {*/
+/*  padding-left: 30px;*/
+/*}*/
 
 .biography-main-artyom {
   padding-top: 70px;
@@ -48,6 +48,46 @@
 .contact__biography-artyom ul {
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
+  padding-top: 60px;
   gap: 20px;
+}
+
+@media only screen and (max-width: 1210px) {
+  .burger {
+    display: grid;
+  }
+
+  .logo {
+    display: grid;
+  }
+
+  .nav_container {
+    display: none;
+  }
+
+  .logo__container-biography{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .biography-title {
+    display: grid;
+    align-items: center;
+  }
+
+  .main-title__container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .photo-artyom {
+    margin: auto;
+  }
+
+  .biography-main-artyom {
+    display: grid;
+  }
 }
