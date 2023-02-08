@@ -1,3 +1,12 @@
+.button {
+  white-space: nowrap;
+}
+
+.no-fixed {
+  position: static;
+  padding: 40px 20px;
+}
+
 @media only screen and (max-width: 620px) {
   .semicircle {
     width: 50px;

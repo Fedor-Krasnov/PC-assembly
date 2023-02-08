@@ -1,0 +1,98 @@
+.well {
+  background-color: #121212;
+  margin: -40px -20px;
+  padding: 20px;
+}
+
+.well .text {
+  white-space: nowrap;
+}
+
+.well_container {
+  max-width: 1296px;
+  margin: 0 auto;
+  min-height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  column-gap: 80px;
+  row-gap: 30px;
+  flex-wrap: wrap;
+}
+
+.well button {
+  border: none;
+  border-radius: 50px;
+  color: white;
+  background:  linear-gradient(95deg, #DF5950 11%, #451046 94%);
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  cursor: pointer;
+  padding: 10px 30px;
+}
+
+.well button:hover {
+  background: linear-gradient(95deg, #C89AFC 9%, #7C6AFA 90%);
+}
+
+.well.initialized .line_filling {
+  width: 68%;
+  transition: 1s linear;
+}
+
+.pupils {
+  flex: 1;
+  gap: 10px;
+  display: grid;
+}
+
+.scale,
+.cost_pupils,
+.pupils > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.cost_pupils {
+  justify-content: flex-start;
+}
+
+.cost {
+  flex: 3;
+  gap: 6px;
+  display: grid;
+}
+
+.scale,
+.cost_pupils .text,
+.pupils .text {
+  opacity: 0.4;
+}
+
+.line {
+  background: white;
+  height: 6px;
+}
+
+.line_filling {
+  height: inherit;
+  width: 0;
+  background: linear-gradient(95deg, #DF5950 11%, #451046 94%);
+}
+
+@media only screen and (max-width: 1024px) {
+  .pupils,
+  .cost {
+    flex: none;
+  }
+
+  .cost {
+    width: 100%;
+  }
+
+  .well_container {
+    justify-content: left;
+  }
+}
