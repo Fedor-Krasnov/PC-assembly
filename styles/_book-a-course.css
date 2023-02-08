@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   display: grid;
+  padding-top: 100px;
 }
 
 .book-a-course__title {
@@ -92,10 +93,40 @@
 .contact__book-a-course ul {
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 60px;
   gap: 20px;
 }
 
 .book-a-course__button:hover {
   background: linear-gradient(95deg, #C89AFC 10%, #7C6AFA 90%);
+}
+
+@media only screen and (max-width: 1210px) {
+  .burger {
+    display: grid;
+  }
+
+  .logo {
+    display: grid;
+  }
+
+  .nav_container {
+    display: none;
+  }
+
+  .book-a-course-logo__container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .book-a-course__border {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .book-a-course-buy__border {
+    width: 275px;
+  }
 }
