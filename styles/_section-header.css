@@ -1,15 +1,14 @@
 .header {
-  background: url("../assets/img/main-screen__bgc.png") no-repeat top center;
-  min-height: 960px;
+  background: url('../assets/img/main-screen__bgc.png') no-repeat center bottom;
+  background-size: cover;
   padding: 100px 20px 40px;
-  max-width: 1760px;
   margin: 0 -20px;
-  display: grid;
-  align-content: space-between;
 }
 
-.button {
-  white-space: nowrap;
+.header__container {
+  align-content: space-between;
+  display: grid;
+  min-height: 800px;
 }
 
 .header h1 {
@@ -76,15 +75,6 @@
   z-index: 1;
 }
 
-.no-fixed {
-  position: static;
-  padding: 40px 20px;
-}
-
-.well .text {
-  white-space: nowrap;
-}
-
 .bottom {
   text-decoration: none;
   color: white;
@@ -148,92 +138,6 @@
   font-size: 16px;
 }
 
-.well {
-  background-color: #121212;
-  margin: -40px -20px;
-  padding: 20px;
-}
-
-.well_container {
-  max-width: 1296px;
-  margin: 0 auto;
-  min-height: 130px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  column-gap: 80px;
-  row-gap: 30px;
-  flex-wrap: wrap;
-}
-
-.well button {
-  border: none;
-  border-radius: 50px;
-  color: white;
-  background:  linear-gradient(95deg, #DF5950 11%, #451046 94%);
-  font-size: 16px;
-  font-family: Roboto, sans-serif;
-  cursor: pointer;
-  padding: 10px 30px;
-}
-
-.well button:hover {
-  background: linear-gradient(95deg, #C89AFC 9%, #7C6AFA 90%);
-}
-
-.button_container {
-  display: flex;
-  align-items: center;
-  flex: 1;
-}
-
-.pupils {
-  flex: 1;
-  gap: 10px;
-  display: grid;
-}
-
-.scale,
-.cost_pupils,
-.pupils > div {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-}
-
-.cost_pupils {
-  justify-content: flex-start;
-}
-
-.cost {
-  flex: 3;
-  gap: 6px;
-  display: grid;
-}
-
-.scale,
-.cost_pupils .text,
-.pupils .text {
-  opacity: 0.4;
-}
-
-.line {
-  background: white;
-  height: 6px;
-}
-
-.line_filling {
-  height: inherit;
-  width: 0;
-  background: linear-gradient(95deg, #DF5950 11%, #451046 94%);
-}
-
-.well.initialized .line_filling {
-  width: 68%;
-  transition: 1s linear;
-}
-
 .burger {
   cursor: pointer;
   display: none;
@@ -254,22 +158,6 @@
 
   .nav_container {
     display: none;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .button_container,
-  .pupils,
-  .cost {
-    flex: none;
-  }
-
-  .cost {
-    width: 100%;
-  }
-
-  .well_container {
-    justify-content: left;
   }
 }
 
@@ -294,6 +182,30 @@
   .timer_list .unit {
     margin-top: 10px;
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .header__container {
+    min-height: 700px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .header__container {
+    min-height: 600px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header__container {
+    min-height: 500px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .header__container {
+    min-height: 400px;
   }
 }
 
