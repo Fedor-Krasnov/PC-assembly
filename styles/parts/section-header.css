@@ -1,5 +1,5 @@
 .header {
-  background: url('../assets/img/main-screen__bgc.png') no-repeat center bottom;
+  background: url('../../assets/img/main-screen__bgc.png') no-repeat center bottom;
   background-size: cover;
   padding: 100px 20px 40px;
   margin: 0 -20px;
