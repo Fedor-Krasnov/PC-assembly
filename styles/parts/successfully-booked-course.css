@@ -3,7 +3,7 @@
 }
 
 .successfully-booked-course__border {
-  width: 700px;
+  max-width: 700px;
   border: 1px solid;
   border-radius: 8px;
   justify-content: center;
@@ -27,5 +27,34 @@
   padding-top: 5px;
 }
 
+.successfully-booked-course-title__container {
+  margin-bottom: 15px;
+}
 
+@media only screen and (max-width: 1210px) {
+  .burger {
+    display: grid;
+  }
 
+  .logo {
+    display: grid;
+  }
+
+  .nav_container {
+    display: none;
+  }
+
+  .logo_title {
+    display: none;
+  }
+
+  .congratulation_title {
+    margin: auto;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .successfully-booked-course-main-information {
+    text-align: center;
+  }
+}
