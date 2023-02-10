@@ -1,0 +1,45 @@
+.modal {
+  background: black;
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 49px 26px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  z-index: 1;
+}
+
+.close-modal {
+  width: 20px;
+  position: absolute;
+  top: 67px;
+  right: 26px;
+  cursor: pointer;
+}
+
+.modal_nav ul {
+  display: grid;
+  gap: 68px;
+}
+
+.modal_nav .active {
+  color: black;
+}
+
+.modal_nav a {
+  color: gray;
+  text-decoration: none;
+}
+
+.modal_lang span {
+  color: black;
+}
+
+@media only screen and (max-width: 1180px) {
+  .modal.modal_open {
+    display: block;
+  }
+}
