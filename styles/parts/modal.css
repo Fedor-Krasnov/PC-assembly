@@ -15,8 +15,8 @@
 .close-modal {
   width: 20px;
   position: absolute;
-  top: 67px;
-  right: 26px;
+  top: 35px;
+  right: 35px;
   cursor: pointer;
 }
 
@@ -41,5 +41,39 @@
 @media only screen and (max-width: 1211px) {
   .modal.modal_open {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 1210px) {
+  .navbar-burger li {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 10px;
+  }
+
+  .navbar-burger ul {
+    display: grid;
+    align-items: center;
+    gap: 100px;
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .navbar-burger li {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 10px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .navbar-burger li {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 10px;
   }
 }
