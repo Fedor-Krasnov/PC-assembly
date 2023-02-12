@@ -1,0 +1,88 @@
+.go_to_office__border-1 {
+  width: 1000px;
+  height: 400px;
+  color: white;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+.go_to_office__container {
+  display: grid;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.logo__img {
+  margin: auto;
+  padding: 30px 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.go-to-office-registration {
+  gap: 30px;
+}
+
+.go-to-office-registration input {
+  width: 250px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.25);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  outline: none;
+  padding: 0 20px;
+}
+
+.go-to-office-registration label {
+  display: block;
+  font-size: small;
+}
+
+.data_filling {
+  display: grid;
+  column-gap: 20px;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.filling__link {
+  display: grid;
+  padding-top: 10px;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 1210px) {
+  .page_go-to-office .burger {
+    display: none;
+  }
+
+  .page_go-to-office .logo {
+    display: none;
+  }
+
+  .page_go-to-office .nav_container {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .page_go-to-office .burger {
+    display: grid;
+  }
+
+  .page_go-to-office .logo {
+    display: block;
+  }
+
+  .page_go-to-office .nav_container {
+    display: none;
+  }
+}
