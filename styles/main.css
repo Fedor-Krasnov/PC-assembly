@@ -1,6 +1,6 @@
 @import "parts/reset.css";
 @import "parts/html.css";
-@import "parts/section-header.css";
+@import "parts/header.css";
 @import "parts/section-business.css";
 @import "parts/section-fast-start.css";
 @import "parts/section-get-a-profession.css";
@@ -9,10 +9,10 @@
 @import "parts/section-our-teachers.css";
 @import "parts/section-well.css";
 @import "parts/footer.css";
-@import "parts/biography-pavel.css";
-@import "parts/biography-wellem.css";
-@import "parts/biography-artyom.css";
-@import "parts/book-a-course.css";
-@import "parts/successfully-booked-course.css";
+@import "parts/page_biography-pavel.css";
+@import "parts/page_biography-wellem.css";
+@import "parts/page_biography-artyom.css";
+@import "parts/page_book-a-course.css";
+@import "parts/page_successfully-booked-course.css";
 @import "parts/common.css";
 @import "parts/modal.css";
