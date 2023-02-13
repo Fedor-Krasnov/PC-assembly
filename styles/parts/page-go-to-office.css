@@ -1,6 +1,6 @@
 .go_to_office__border-1 {
   width: 1000px;
-  height: 400px;
+  height: 500px;
   color: white;
   border: 1px solid;
   border-radius: 8px;
@@ -46,7 +46,7 @@
 
 .data_filling {
   display: grid;
-  column-gap: 20px;
+  gap: 10px;
   padding-top: 20px;
   justify-content: center;
 }
@@ -56,6 +56,23 @@
   padding-top: 10px;
   justify-content: center;
   text-decoration: none;
+  color: white;
+}
+
+.biography-button__container {
+  padding-top: 30px;
+  display: grid;
+  justify-content: center;
+}
+
+.biography-button {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 50px;
+  width: 135px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
   color: white;
 }
 
