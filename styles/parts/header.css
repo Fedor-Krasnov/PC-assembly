@@ -8,7 +8,7 @@
 .header__container {
   align-content: space-between;
   display: grid;
-  min-height: 800px;
+  min-height: 1200px;
 }
 
 .header h1 {
