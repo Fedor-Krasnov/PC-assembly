@@ -49,13 +49,13 @@
     text-align: center;
     font-weight: 700;
     font-size: 45px;
-    line-height: 10px;
+    line-height: 60px;
   }
 
   .navbar-burger ul {
     display: grid;
     align-items: center;
-    gap: 100px;
+    gap: 60px;
     padding-top: 50px;
   }
 }
@@ -65,7 +65,7 @@
     text-align: center;
     font-weight: 700;
     font-size: 40px;
-    line-height: 10px;
+    line-height: 40px;
   }
 }
 
@@ -74,6 +74,6 @@
     text-align: center;
     font-weight: 700;
     font-size: 35px;
-    line-height: 10px;
+    line-height: 40px;
   }
 }
